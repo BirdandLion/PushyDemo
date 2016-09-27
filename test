@@ -1,0 +1,41 @@
+$ pushy uploadIpa PushyDemo.ipa
+  Uploading [==================================================================] 100% 0.0s
+Ipa uploaded: 2362
+GandalfdeiMac:PushyDemo gandalf$ pushy bundle --platform ios
+Bundling with React Native version:  0.34.0
+[2016-09-27 14:21:58] <START> Building Dependency Graph
+[2016-09-27 14:21:58] <START> Crawling File System
+[2016-09-27 14:22:03] <START> Finding dependencies
+[2016-09-27 14:22:23] <END>   Crawling File System (24653ms)
+[2016-09-27 14:22:23] <START> Building in-memory fs for JavaScript
+[2016-09-27 14:22:23] <END>   Building in-memory fs for JavaScript (197ms)
+[2016-09-27 14:22:23] <START> Building in-memory fs for Assets
+[2016-09-27 14:22:23] <END>   Building in-memory fs for Assets (159ms)
+[2016-09-27 14:22:23] <START> Building Haste Map
+[2016-09-27 14:22:23] <START> Building (deprecated) Asset Map
+[2016-09-27 14:22:23] <END>   Building (deprecated) Asset Map (64ms)
+[2016-09-27 14:22:25] <END>   Building Haste Map (1727ms)
+[2016-09-27 14:22:25] <END>   Building Dependency Graph (26748ms)
+transformed 368/368 (100%)
+[2016-09-27 14:22:32] <END>   Finding dependencies (28763ms)
+bundle: start
+bundle: finish
+bundle: Writing bundle output to: /Users/gandalf/Documents/kelvin/Github/HotUpdate/PushyDemo/build/intermedia/ios/index.bundlejs
+bundle: Copying 5 asset files
+bundle: Done writing bundle output
+bundle: Done copying assets
+Packing
+Bundled saved to: build/output/ios.1474957297204.ppk
+Would you like to publish it?(Y/N) Y
+  Uploading [==================================================================] 100% 0.0s
+Enter version name: 1.1.0
+Enter description: change upgrade description
+Enter meta info: {"ok": 1}
+Version published: 5244
+Would you like to bind packages to this version?(Y/N) Y
+2362) 1.0(normal) (newest)
+
+Total 1 packages.
+Enter packageId: 5244
+Enter packageId: 2362
+Ok.
